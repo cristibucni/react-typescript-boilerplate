@@ -90,6 +90,7 @@ module.exports = (env, argv) => ({
     new HTMLWebpackPlugin({
       filename: 'index.html',
       template: './app/index.html',
+      favicon: path.join(__dirname, 'app/assets/images/react.svg'),
     }),
     new MiniCSSExtractPlugin(),
     new ESLintWebpackPlugin({
