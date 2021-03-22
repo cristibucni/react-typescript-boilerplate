@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production --color --progress",
-    "start": "yarn install && webpack serve --mode=development",
+    "start": "yarn install && webpack serve --host 0.0.0.0 --mode=development",
     "start:prod": "yarn install --non-interactive --frozen-lockfile && yarn build"
   },
   "license": "MIT",

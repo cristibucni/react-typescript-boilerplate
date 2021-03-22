@@ -60,8 +60,11 @@ const styles = (theme) => ({
     alignItems: 'center',
     gap: '40px',
     flexDirection: 'column',
+    justifyContent: 'center',
     margin: 'auto',
-    width: '25%',
+    height: '100vh',
+    width: '100%',
+    maxWidth: '300px',
     '& img': {
       maxWidth: '300px',
     },
